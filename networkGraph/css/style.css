@@ -18,7 +18,11 @@ header, body {
 } */
 a{
   /* color: #ffffff; */
-  color: #22c5dd;
+   color: #22c5dd; 
+}
+a:hover{
+  color: #ffffff;
+  /* color: #22c5dd; */
 }
 p, li{
     font-size: large;
@@ -125,6 +129,19 @@ h2,h3{
     margin-right: 2%;
     margin-bottom: 0%;
 }
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
 /* #feature{
     position: relative; 
     height: 100vh;
